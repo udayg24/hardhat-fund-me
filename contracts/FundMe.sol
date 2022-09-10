@@ -74,7 +74,7 @@ contract FundMe {
         for (
             uint256 funderIndex = 0;
             funderIndex < funders.length;
-            funderIndex = funderIndex++
+            funderIndex++
         ) {
             address funder = funders[funderIndex];
             addressToAmountFunded[funder] = 0;
